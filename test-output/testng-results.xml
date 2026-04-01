@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-02T00:30:22 IST" name="Suite" finished-at="2026-04-02T00:30:27 IST" duration-ms="5362">
+    <groups>
+    </groups>
+    <test started-at="2026-04-02T00:30:22 IST" name="Test1" finished-at="2026-04-02T00:30:25 IST" duration-ms="3552">
+      <class name="com.devopsAssignment.crossBrowserTesting">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@f6efaab]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:25 IST" duration-ms="3521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerTest -->
+      </class> <!-- com.devopsAssignment.crossBrowserTesting -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-04-02T00:30:22 IST" name="Test3" finished-at="2026-04-02T00:30:25 IST" duration-ms="3625">
+      <class name="com.devopsAssignment.crossBrowserTesting">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@10683d9d]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:25 IST" duration-ms="3596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerTest -->
+      </class> <!-- com.devopsAssignment.crossBrowserTesting -->
+    </test> <!-- Test3 -->
+    <test started-at="2026-04-02T00:30:22 IST" name="Test2" finished-at="2026-04-02T00:30:27 IST" duration-ms="5362">
+      <class name="com.devopsAssignment.crossBrowserTesting">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@2f4948e4]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:27 IST" duration-ms="5333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerTest -->
+      </class> <!-- com.devopsAssignment.crossBrowserTesting -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
