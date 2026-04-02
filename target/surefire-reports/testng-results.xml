@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-02T23:57:17 IST" name="Suite" finished-at="2026-04-02T23:57:25 IST" duration-ms="8876">
+  <suite started-at="2026-04-03T00:04:15 IST" name="Suite" finished-at="2026-04-03T00:04:22 IST" duration-ms="6650">
     <groups>
     </groups>
-    <test started-at="2026-04-02T23:57:17 IST" name="Test1" finished-at="2026-04-02T23:57:25 IST" duration-ms="7989">
+    <test started-at="2026-04-03T00:04:15 IST" name="Test1" finished-at="2026-04-03T00:04:20 IST" duration-ms="4807">
       <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@351d00c0]" started-at="2026-04-02T23:57:17 IST" name="broswerTest" finished-at="2026-04-02T23:57:25 IST" duration-ms="7938" status="PASS">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@28eaa59a]" started-at="2026-04-03T00:04:15 IST" name="broswerTest" finished-at="2026-04-03T00:04:20 IST" duration-ms="4768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,24 +20,9 @@
         </test-method> <!-- broswerTest -->
       </class> <!-- com.devopsAssignment.crossBrowserTesting -->
     </test> <!-- Test1 -->
-    <test started-at="2026-04-02T23:57:17 IST" name="Test2" finished-at="2026-04-02T23:57:25 IST" duration-ms="8671">
+    <test started-at="2026-04-03T00:04:15 IST" name="Test3" finished-at="2026-04-03T00:04:20 IST" duration-ms="4954">
       <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@385c9627]" started-at="2026-04-02T23:57:17 IST" name="broswerTest" finished-at="2026-04-02T23:57:25 IST" duration-ms="8621" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- broswerTest -->
-      </class> <!-- com.devopsAssignment.crossBrowserTesting -->
-    </test> <!-- Test2 -->
-    <test started-at="2026-04-02T23:57:17 IST" name="Test3" finished-at="2026-04-02T23:57:25 IST" duration-ms="8876">
-      <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@682b2fa]" started-at="2026-04-02T23:57:17 IST" name="broswerTest" finished-at="2026-04-02T23:57:25 IST" duration-ms="8827" status="PASS">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@52bf72b5]" started-at="2026-04-03T00:04:15 IST" name="broswerTest" finished-at="2026-04-03T00:04:20 IST" duration-ms="4917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,5 +35,20 @@
         </test-method> <!-- broswerTest -->
       </class> <!-- com.devopsAssignment.crossBrowserTesting -->
     </test> <!-- Test3 -->
+    <test started-at="2026-04-03T00:04:15 IST" name="Test2" finished-at="2026-04-03T00:04:22 IST" duration-ms="6650">
+      <class name="com.devopsAssignment.crossBrowserTesting">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@2a798d51]" started-at="2026-04-03T00:04:15 IST" name="broswerTest" finished-at="2026-04-03T00:04:22 IST" duration-ms="6614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broswerTest -->
+      </class> <!-- com.devopsAssignment.crossBrowserTesting -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

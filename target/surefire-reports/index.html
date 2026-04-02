@@ -108,12 +108,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.devopsAssignment.crossBrowserTesting" class="method navigator-link" hash-for-method="broswerTest(Firefox)">broswerTest(Firefox)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.devopsAssignment.crossBrowserTesting" class="method navigator-link" hash-for-method="broswerTest(Edge)">broswerTest(Edge)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.devopsAssignment.crossBrowserTesting" class="method navigator-link" hash-for-method="broswerTest(Edge)">broswerTest(Edge)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.devopsAssignment.crossBrowserTesting" class="method navigator-link" hash-for-method="broswerTest(Firefox)">broswerTest(Firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -144,18 +144,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="broswerTest(Firefox)">
-                  </a> <!-- broswerTest(Firefox) -->
-                  <span class="method-name">broswerTest</span>
-                  <span class="parameters">(Firefox)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="broswerTest(Edge)">
                   </a> <!-- broswerTest(Edge) -->
                   <span class="method-name">broswerTest</span>
                   <span class="parameters">(Edge)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="broswerTest(Firefox)">
+                  </a> <!-- broswerTest(Firefox) -->
+                  <span class="method-name">broswerTest</span>
+                  <span class="parameters">(Firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,20 +169,20 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test1&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test1&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.devopsAssignment.crossBrowserTesting&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test2&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test2&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.devopsAssignment.crossBrowserTesting&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test2 --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test3&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test3&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.devopsAssignment.crossBrowserTesting&quot;/&gt;
@@ -235,20 +235,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'broswerTest')
 data.setCell(0, 2, 'com.devopsAssignment.crossBrowserTesting')
-data.setCell(0, 3, 8827);
+data.setCell(0, 3, 6614);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'broswerTest')
 data.setCell(1, 2, 'com.devopsAssignment.crossBrowserTesting')
-data.setCell(1, 3, 8621);
+data.setCell(1, 3, 4917);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'broswerTest')
 data.setCell(2, 2, 'com.devopsAssignment.crossBrowserTesting')
-data.setCell(2, 3, 7938);
+data.setCell(2, 3, 4768);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->

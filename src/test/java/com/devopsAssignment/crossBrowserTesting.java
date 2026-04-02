@@ -54,6 +54,6 @@ public class crossBrowserTesting {
 	  String acttitle = driver.getTitle();
 	 	  
 	  AssertJUnit.assertTrue(acttitle.contains("Amazon"));	 
-	  driver.close();
+	  driver.quit();
   }
 }
