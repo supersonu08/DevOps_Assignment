@@ -1,53 +1,59 @@
 package com.devopsAssignment;
 
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import com.beust.jcommander.Parameter;
-
-import org.testng.AssertJUnit;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class crossBrowserTesting {
 	WebDriver driver;
   @Parameters({"browser"}) 
   @Test
-  public void broswerTest(String browser) throws InterruptedException {
+  public void broswerTest(String browser) throws InterruptedException, MalformedURLException, URISyntaxException {
 	  
 	  if(browser.equalsIgnoreCase("Chrome"))
 	  {
-		  driver = new ChromeDriver();
+		  ChromeOptions options = new ChromeOptions();
+		  driver = new RemoteWebDriver(new URI("http://localhost:4444").toURL(),options);
 		  System.out.println("chrome launched");
 	  }
 	  
 	  else if(browser.equalsIgnoreCase("FireFox"))
 	  {
-		  driver = new FirefoxDriver();
+		  FirefoxOptions options = new FirefoxOptions();
+		  driver = new RemoteWebDriver(new URI("http://localhost:4444").toURL(),options);
+		  
 		  System.out.println("firefox launched");
 	  }
 	  
 	  else if(browser.equalsIgnoreCase("Edge"))
 	  {
-		  driver = new EdgeDriver();
+		  EdgeOptions options = new EdgeOptions();
+		  driver = new RemoteWebDriver(new URI("http://localhost:4444").toURL(),options);
 		  System.out.println("edge launched");
 	  }
 	  
-	  else {
+	  else { 
 		  System.out.println("Invalid borwser");
 	  }
 	  
 	 
-	  driver.get("https://www.amazon.com/");
-	  
-	  Thread.sleep(2000);
-	 
+	  driver.get("https://www.amazon.com/");	  
+	  Thread.sleep(2000);	 
 	  String acttitle = driver.getTitle();
 	 	  
-	  AssertJUnit.assertTrue(acttitle.contains("Amazon"));
-	 
+	  AssertJUnit.assertTrue(acttitle.contains("Amazon"));	 
 	  driver.close();
   }
 }

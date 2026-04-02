@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-02T00:30:22 IST" name="Suite" finished-at="2026-04-02T00:30:27 IST" duration-ms="5362">
+  <suite started-at="2026-04-02T21:21:45 IST" name="Suite" finished-at="2026-04-02T21:21:59 IST" duration-ms="13396">
     <groups>
     </groups>
-    <test started-at="2026-04-02T00:30:22 IST" name="Test1" finished-at="2026-04-02T00:30:25 IST" duration-ms="3552">
+    <test started-at="2026-04-02T21:21:45 IST" name="Test1" finished-at="2026-04-02T21:21:53 IST" duration-ms="8189">
       <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@f6efaab]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:25 IST" duration-ms="3521" status="PASS">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@3349e9bb]" started-at="2026-04-02T21:21:45 IST" name="broswerTest" finished-at="2026-04-02T21:21:53 IST" duration-ms="8158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- broswerTest -->
       </class> <!-- com.devopsAssignment.crossBrowserTesting -->
     </test> <!-- Test1 -->
-    <test started-at="2026-04-02T00:30:22 IST" name="Test3" finished-at="2026-04-02T00:30:25 IST" duration-ms="3625">
+    <test started-at="2026-04-02T21:21:45 IST" name="Test3" finished-at="2026-04-02T21:21:54 IST" duration-ms="8423">
       <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@10683d9d]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:25 IST" duration-ms="3596" status="PASS">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@5aa9e4eb]" started-at="2026-04-02T21:21:45 IST" name="broswerTest" finished-at="2026-04-02T21:21:54 IST" duration-ms="8394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,9 +35,9 @@
         </test-method> <!-- broswerTest -->
       </class> <!-- com.devopsAssignment.crossBrowserTesting -->
     </test> <!-- Test3 -->
-    <test started-at="2026-04-02T00:30:22 IST" name="Test2" finished-at="2026-04-02T00:30:27 IST" duration-ms="5362">
+    <test started-at="2026-04-02T21:21:45 IST" name="Test2" finished-at="2026-04-02T21:21:59 IST" duration-ms="13396">
       <class name="com.devopsAssignment.crossBrowserTesting">
-        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@2f4948e4]" started-at="2026-04-02T00:30:22 IST" name="broswerTest" finished-at="2026-04-02T00:30:27 IST" duration-ms="5333" status="PASS">
+        <test-method signature="broswerTest(java.lang.String)[pri:0, instance:com.devopsAssignment.crossBrowserTesting@10683d9d]" started-at="2026-04-02T21:21:45 IST" name="broswerTest" finished-at="2026-04-02T21:21:59 IST" duration-ms="13368" status="PASS">
           <params>
             <param index="0">
               <value>
